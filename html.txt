@@ -1,0 +1,23 @@
+    <div data-role="header"> 
+
+         <h1>GOOGLE MAP SERVICE</h1>
+
+    </div>
+    <div data-role="content">
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+        
+        <body>
+            <div id="direction">
+                 <h5><center><i>Get Directions</i></center></h5>
+
+                <hr/> <strong><center>START:</center></strong>
+
+                <input type="text" name="start" id="start" value="" /> <center><strong>DESTINATION:</strong></center>
+
+                <input type="text" name="destination" id="end" value="" />
+                <input type="submit" id="submit" value="SUBMIT" />
+            </div>
+            <div id="directions-pop"></div>
+            <div id="map-canvas" style="height:500px;width:100%;"></div>
+        </body>
+    </div> 
